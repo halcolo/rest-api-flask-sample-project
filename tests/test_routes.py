@@ -16,7 +16,6 @@ class FlaskTestCase(unittest.TestCase):
         response = self.client.get('/')
         response_data = eval(response.data)
         self.assertEquals(response_data['message'], "Hello, world!")
-        
-        
-if __name__ == "__main__":
-    unittest.main()
+
+# if __name__ == "__main__":
+#     unittest.main()

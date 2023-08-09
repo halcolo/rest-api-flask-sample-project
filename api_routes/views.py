@@ -9,3 +9,5 @@ class HelloWorldView(MethodView):
     """
     def get(self):
         return jsonify({"message": "Hello, world!"})
+    
+
